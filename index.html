@@ -6,20 +6,47 @@
         <title>Facebook UI</title>
         <style>
             body {
-                background-color: rgb(151, 144, 144);
+                background-color: rgb(204, 202, 202);
+                text-align: center;
             }
             .container {
                 background-color: white;
                 border-radius: 10px;
+                text-align: center;
+                width: 400px;
+                margin-left: 25%;
+                padding: 15px;
+            }
+            h1 {
+                color: rgb(30, 30, 196);
             }
             input {
                 border-radius: 10px;
             }
             button {
-                border-radius: 10px;
-                
+                border-radius: 5px;
             }
-            
+            .login-btn {
+                background-color: rgb(30, 30, 196);
+                width: 320px;
+                color: white;
+            }
+            .create-btn {
+                background-color: green;
+                width: 150px;
+                color: white;
+            }
+            input,
+            button {
+                padding: 10px;
+                border: 1px solid rgb(158, 157, 157);
+                margin: 5px;
+                width: 300px;
+            }
+            a {
+                color: rgb(51, 51, 185);
+                text-decoration: none;
+            }
         </style>
     </head>
     <body>
@@ -28,10 +55,14 @@
             Facebook helps you connect and<br />share with people in your life.
         </h3>
         <div class="container">
-            <input type="text" /><br />
-            <input type="password" /><br />
+            <input
+                type="text"
+                placeholder="Email Address or phone number"
+            /><br />
+            <input type="password" placeholder="Password" /><br />
             <button class="login-btn">Log in</button>
-            <a>Forgotten Password?</a>
+            <br />
+            <a href="lll">Forgotten Password?</a>
             <hr />
             <button class="create-btn">Create New Account</button>
         </div>
